@@ -1,6 +1,7 @@
 ## תנאים מוקדמים
 - התקינו את [VS Code](https://code.visualstudio.com/download)
 - התקינו את [NET Framework.](https://dotnet.microsoft.com/en-us/download)
+- התקינו את [git](https://git-scm.com/downloads/win)
 - התקינו TypeScript בעזרת הרצת הפקודות:
 ```
 powershell -c "irm bun.sh/install.ps1 | iex"
