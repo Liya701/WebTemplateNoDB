@@ -1,5 +1,5 @@
 ## תנאים מוקדמים
-- התקינו [VS Code](https://code.visualstudio.com/download)
+- התקינו את [VS Code](https://code.visualstudio.com/download)
 - התקינו את [NET Framework.](https://dotnet.microsoft.com/en-us/download)
 - התקינו TypeScript בעזרת הרצת הפקודות:
 ```
