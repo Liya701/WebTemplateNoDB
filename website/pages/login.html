@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My Music List</title>
+  <style>
+    #container {
+      display: flex;
+      flex-direction: column; /* מסדר את האלמנטים בטור */
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      gap: 5px; /* מקטין את הרווח בין האלמנטים */
+      font-size: 20px;
+      text-align: center;
+    }
+
+    input {
+      padding: 8px; /* הרווח בין הinput לשם האלמנט*/
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 200px;
+    }
+
+    .button {
+      margin-top: 10px;
+      padding: 10px;
+      font-size: 18px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <h1>Username</h1>
+    <input type="text" placeholder="Enter username">
+    
+    <h1>Password</h1>
+    <input type="password" placeholder="Enter password">  <!-- קובע טקסט זמני שמופיע בתוך שדה הקלט (input) עד שהמשתמש מתחיל להקליד. -->
+    
+    <button class="button">Login</button>
+  </div>
+</body>
+
+</html>
